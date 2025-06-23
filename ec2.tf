@@ -110,7 +110,7 @@ resource "aws_eip" "eip_sub2" {
   ami               = "ami-0885b1f6bd170450c"
   instance_type     = "t2.micro"
   availability_zone = "us-east-1a"
-  key_name          = "key123"
+ 
 
   network_interface {
     device_index         = 0
