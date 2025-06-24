@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'ec2.tf'
-    branches: [ "main" ]
+    branches: [ "main" ] 
      
   pull_request:
 
